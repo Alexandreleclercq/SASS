@@ -1,0 +1,20 @@
+nav a {
+  color: red;
+  text-decoration: none; }
+
+body {
+  background-color: #e8b484;
+  font-size: 1em; }
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0; }
+
+nav li {
+  list-style: none; }
+
+nav a:hover {
+  color: darkblue; }
+
+/*# sourceMappingURL=style.css.map */

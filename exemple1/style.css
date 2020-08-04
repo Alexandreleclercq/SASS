@@ -1,0 +1,17 @@
+body {
+  background-color: #fceddf;
+  font-size: 1em; }
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0; }
+
+nav li {
+  list-style: none; }
+
+nav a {
+  color: grey;
+  text-decoration: none; }
+  nav a:hover {
+    color: darkblue; }

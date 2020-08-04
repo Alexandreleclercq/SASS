@@ -1,0 +1,27 @@
+$couleur-fond: #fceddf;
+
+body {
+    background-color: $couleur-fond;
+    font-size: 1em;
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: grey;
+        text-decoration: none;
+
+        &:hover {
+            color: darkblue;
+        }
+    }
+}
